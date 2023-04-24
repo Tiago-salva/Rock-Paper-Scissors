@@ -4,9 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Rock, Paper and Scissors</title>
 </head>
 <body>
-    <script src="script.js"></script>
+   
+    <div class="game-Container">
+        
+        <div class="title-Container">
+            <h2 class="title">¡Rock, Paper or Scissors!</h2>
+        </div>
+
+        <div class="buttons-Container">
+            <button class="btn" id="buttonR">
+                <img src="https://img.icons8.com/emoji/512/rock-emoji.png" alt="Rock">
+            </button>
+
+            <button class="btn" id="buttonP">
+                <img src="https://png.pngtree.com/png-vector/20221010/ourmid/pngtree-paper-icon-png-image_6294297.png" alt="Sheet of paper">
+            </button>
+
+            <button class="btn" id="buttonS">
+                <img src="https://cdn-icons-png.flaticon.com/512/4659/4659833.png" alt="Scissors">
+            </button>
+        </div>
+
+        <div class="score-Container2">
+            <div class="score-Container">
+                <p class="player-Score"></p>
+                <p class="computer-Score"></p>
+            </div>
+        </div>
+
+        <div class="result-Container2">
+            <div class="result-Container">
+                <p class="result"></p>
+            </div>
+        </div>
+
+        <footer class="footer-Container">
+            <p class="github-user">Copyright © 2023 Tiago-salva</p>
+            <a href="https://github.com/Tiago-salva">
+                <i class="fa-brands fa-github fa-spin fa-spin-reverse"></i>    
+            </a>
+        </footer>
+
+        <div id="again">
+            <p class="result-Again"></p>
+            <button id="btn-Again">Play again</button>
+        </div>
+        
+    </div>
+    
 </body>
 </html>
